@@ -1,0 +1,35 @@
+
+body {
+    background-color: rgb(221, 208, 208);
+    text-align: center;
+    margin-top: 250px;
+    font-family: Verdana;
+}
+
+
+h1{
+    color: rgb(23, 23, 24);
+    font-size: 50px;
+
+}
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+}
+
+div{
+    width:95px;
+    height:95px;
+    background-color: red;
+}
+div:hover {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
